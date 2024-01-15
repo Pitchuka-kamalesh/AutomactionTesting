@@ -32,8 +32,10 @@ public class LoginPagePOM {
     }
 
     public void login(){
-        Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(userNameInputField.isDisplayed());
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+
+//        Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        wait.until(userNameInputField.isDisplayed());
         userNameInputField.sendKeys("Admin");
         passwordInputField.sendKeys("admin123");
         submitButton.click();
