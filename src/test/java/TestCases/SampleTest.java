@@ -5,13 +5,10 @@ import org.testng.annotations.Test;
 
 public class SampleTest extends BaseClass {
 
-    LoginPagePOM loginPom = new LoginPagePOM(driver);
+
     @Test
     public void appTest(){
         System.out.println("Hello world");
-
-
-
     }
 
     @Test
@@ -22,6 +19,7 @@ public class SampleTest extends BaseClass {
     @Test
     public void loginPage(){
         System.out.println(" We are in the login page");
+        LoginPagePOM loginPom = new LoginPagePOM(driver);
         loginPom.login();
     }
     @Test

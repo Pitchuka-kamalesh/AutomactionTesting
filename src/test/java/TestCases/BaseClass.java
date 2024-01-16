@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
     WebDriver driver;
-    @BeforeClass
+    @BeforeTest
     public void setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -21,7 +21,7 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-    @AfterClass
+    @AfterTest
     public void tearDown(){
         System.out.println("Quiting the browser");
         driver.quit();
