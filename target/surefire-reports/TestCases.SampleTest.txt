@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestCases.SampleTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.97 s -- in TestCases.SampleTest
