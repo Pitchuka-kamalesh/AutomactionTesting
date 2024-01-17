@@ -1,15 +1,13 @@
 package TestCases;
 
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -43,7 +41,6 @@ public class BaseClass {
 //        System.out.println("closing the browser");
 //        driver.close();
 //    }
-
     @AfterSuite(alwaysRun = true)
     public void driverClosing() {
         System.out.println("quicting the driver");
