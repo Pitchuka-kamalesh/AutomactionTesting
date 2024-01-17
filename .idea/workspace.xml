@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218bc769-55b1-49bc-a26b-196952bf38fb" name="Changes" comment="changed code in the LoginPagePOM.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumjava/Pages/LoginPagePOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumjava/Pages/LoginPagePOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/BaseClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="218bc769-55b1-49bc-a26b-196952bf38fb" name="Changes" comment="changed code in the LoginPagePOM.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705387976677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changed code in the LoginPagePOM.java">
+      <option name="closed" value="true" />
+      <created>1705415155739</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705415155739</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
