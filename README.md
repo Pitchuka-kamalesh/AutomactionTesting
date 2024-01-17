@@ -61,6 +61,8 @@ ___
 |preceding|	//p[@value ='value1']//preceding-sibling::p		|
 
 
+> Xpaths for the Login page for orangeHrm
+![img_1.png](img.png)
 
 - How to run this project using the Maven cmd 
 > mvn clean test
