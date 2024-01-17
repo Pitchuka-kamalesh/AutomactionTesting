@@ -1,32 +1,47 @@
 # Project Name: Orange Hrm 
+___
 
 ## Website Url:
 
+[Orange Hrm Website](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
 
-Folder Structure: 
+# Folder Structure: 
+- src
+  - main
+    - java
+      - selenium java
+        - Pages
+          - All pages POM files. 
+    - resources
+  - test
+    - java
+      - TestCase
+        - JavaClass files  
+    - resources (contains Test resource like :`testng.xml`)
 
 
-Skills & Language:
+## Skills & Language:
 
-|Languge/Tools|Version|
-|---------|------|
-|Java|11|
-|Selenium|3.141.59|
-|TestNg|6.14.3|
-|WebDriverManager||
-|Maven|5.5.3|
-|ApachePOI|5.2|
+|Languge/Tools| Version |
+|---------|---|
+|Java| 11 |
+|Selenium| 3.141.59 |
+|TestNg| 6.14.3 |
+|WebDriverManager| 5.5.3 |
+|Maven| 4 |
+|ApachePOI| 5.2 |
 
-## IDE 
+### IDE 
 > eclipse
+> 
 > Intellij
 
-## Degine Patter techniques: 
+### Degine Patter techniques: 
 - POM(Page Object Model)
   - Simple POM
   - Selenium PageFactory
-# How to find elements in the Web page.
+### How to find elements in the Web page.
 - Xpath - cheat sheet
 - 
 |Value/attributes|Relative Xpath|
@@ -49,6 +64,7 @@ Skills & Language:
 
 - How to run this project using the Maven cmd 
 > mvn clean test
+> 
 > mvn test
 			
 			
