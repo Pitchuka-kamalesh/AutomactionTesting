@@ -1,13 +1,13 @@
-# Project Name:
+# Project Name: Orange Hrm 
 
 ## Website Url:
 
 
 
-Folder Strucher: 
+Folder Structure: 
 
 
-Skills & Langauges:
+Skills & Language:
 
 |Languge/Tools|Version|
 |---------|------|
@@ -27,7 +27,7 @@ Skills & Langauges:
   - Simple POM
   - Selenum PageFactory
 # How to find elements in the Web page.
-- Xpath - cheet sheet
+- Xpath - cheat sheet
 |Value|Relative Xpath|
 ID 	//tagname[@attname=’value’]		
 name	//tagname[@name=’nameval’]		
