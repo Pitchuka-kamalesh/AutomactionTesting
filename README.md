@@ -34,7 +34,9 @@ ___
 
 ### IDE 
 > eclipse
-> 
+>>
+> VScode
+>>
 > Intellij
 
 ### Degine Patter techniques: 
@@ -43,7 +45,7 @@ ___
   - Selenium PageFactory
 ### How to find elements in the Web page.
 - Xpath - cheat sheet
-- 
+
 |Value/attributes|Relative Xpath|
 |---------|-------|
 |ID 	|//tagname[@id=’value’]|		
@@ -66,7 +68,7 @@ ___
 
 - How to run this project using the Maven cmd 
 > mvn clean test
-> 
+> >
 > mvn test
 			
 			
