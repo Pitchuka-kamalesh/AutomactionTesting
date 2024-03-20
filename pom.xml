@@ -37,7 +37,14 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.5.3</version>
         </dependency>
+        <dependency>
+          <groupId>com.seleniumframework.core</groupId>
+          <artifactId>selenium-framework</artifactId>
+          <version>1.0</version>
+        </dependency>
     </dependencies>
+
+
 
 
 
